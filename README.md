@@ -38,7 +38,7 @@ You should now be able to explore the Angular TMDB Web App. Search for your movi
 
 - **Search:** Easily search for movies or shows by title.
 - **Top Rated List:** Check out top 10 rated movies or shows.
-- **Details:** View detailed information about each movie or show, including title, descripton cover image or movie/show trailer.
+- **Details:** View detailed information about each movie or show, including title, descripton, cover image or movie/show trailer.
 
 ## Technologies Used
 
