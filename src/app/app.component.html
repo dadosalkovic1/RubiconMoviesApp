@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="buttons">
+  <button routerLink="/movies" *ngIf="showInput">Movies</button>
+  <button routerLink="/shows" *ngIf="showInput">Shows</button> </div>
+  <input type="text" placeholder="Find your movie or TV show" *ngIf="showInput"  (input)="onSearchInput($event)" value="{{lastSearchQuery}}">
+
+  <div [@routerAnimation]="prepareRoute(outlet)">
+    <router-outlet #outlet="outlet"></router-outlet>
+  </div>
+  
+</div>
+
+
+

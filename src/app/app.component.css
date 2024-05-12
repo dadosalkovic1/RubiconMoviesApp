@@ -1,0 +1,48 @@
+
+
+input{
+    margin:10px 0px 10px 0px ;
+    border-radius: 20px;
+    height: 20px;
+    text-align: center;
+    outline: none;
+    border: none;
+    transition: 0.7s ease-in-out;
+}
+
+input:focus{
+
+    box-shadow: 0 0 10px whitesmoke;
+    transition: 0.7s ease-in-out; 
+    box-shadow: 0 0 10px whitesmoke;
+    height: 25px;
+   
+}
+.buttons{
+    display: flex;
+
+}
+.container{
+    padding: 30px;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    margin: 30px;
+    
+}
+button{
+    width: 80px;
+    height: 25px;
+    border-radius: 10px;
+    outline: none;
+    border: transparent;
+    transition: 0.7s ease-in-out;
+}
+button:nth-child(2){
+    margin-left: 5px;
+}
+button:hover{
+   
+    box-shadow: 0 0 10px whitesmoke;
+    transition: 0.5 ease-in-out;
+}

@@ -1,0 +1,25 @@
+
+  
+  
+<h1>Search results</h1>
+
+
+<div class="movies-box">
+
+  <div class="item" 
+  [style.backgroundImage]="'linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.90) 100%)
+  ,url(' + baseUrl + movie.poster_path + ')'"
+  *ngFor="let movie of searchResults"
+  (click)="onMovieClick(movie.id, movie.title , baseUrl + movie.poster_path, movie.overview)">
+
+
+
+<h1>{{ movie.title.length > 20 ? movie.title.substring(0, 10) + '...' : movie.title }}</h1> 
+
+</div>
+
+
+
+</div>
+
+ 

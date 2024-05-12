@@ -1,0 +1,21 @@
+
+  
+  
+<h1>Search results</h1>
+
+
+<div class="shows-box">
+
+   <div class="item" [style.backgroundImage]="'linear-gradient(180deg, rgba(0,0,0,0) 0%,
+    rgba(0,0,0,0.90) 100%)
+    ,url(' + baseUrl + show.poster_path + ')'" *ngFor="let show of searchResults" 
+    (click)="onShowClick(show.id, show.name, baseUrl + show.poster_path,show.overview)">
+
+    <h1>{{ show.name.length > 20 ? show.name.substring(0, 10) + '...' : show.name }}</h1> 
+
+    </div>
+
+</div>
+
+ 
+  

@@ -1,0 +1,20 @@
+
+<div class="details-container">
+    
+    <button (click)="goBack()">Back</button>
+
+<div class="details">
+
+    <div class="iframe-container" *ngIf="HaveTrailer">
+        <iframe [src]="VideoUrl" frameborder="0" allowfullscreen></iframe>
+      </div>
+    <img [src]="completeUrl" alt="Show Poster" *ngIf="!HaveTrailer">
+    <div class="movie-info">
+    <h1>{{movieName}}</h1>
+    <h2>Movie Overview</h2>
+    <p>{{Description}}</p>
+
+</div>
+</div>
+
+</div>
