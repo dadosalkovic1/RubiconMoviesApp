@@ -12,7 +12,8 @@ git clone https://github.com/dadosalkovic1/RubiconMoviesApp.git
 cd RubiconMoviesApp
 3. **Install Dependencies:**
 Make sure you have Node.js and npm installed on your machine. Then, run:
-npm install
+1. npm install --force 
+2. npm install --legacy-peer-deps
 
 
 
